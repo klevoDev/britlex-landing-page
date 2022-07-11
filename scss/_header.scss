@@ -1,0 +1,53 @@
+.header {
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__wrap-logo {
+    }
+
+    &__logo {
+        font-size: 36px;
+        line-height: 150%;
+
+        color: #000;
+    }
+
+    &__span {
+        color: #939393;
+    }
+
+    &__nav {
+    }
+
+    &__wrap-button {
+    }
+
+    &__button {
+        padding: 17px 57px;
+        border: 2px solid #263238;
+        border-radius: 5px;
+
+        color: #000;
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    &__item {
+        margin-left: 36px;
+    }
+
+    &__link {
+        color: #263238;
+    }
+}
