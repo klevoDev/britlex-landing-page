@@ -1,2 +1,76 @@
 .start {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        padding: 50px 57px 0 0;
+    }
+
+    &__heading {
+        position: relative;
+
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 125%;
+
+        margin-left: 2px;
+
+        margin-bottom: 40px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 92px;
+            right: 120px;
+
+            width: 85px;
+            height: 85px;
+            background: url("./../img/light-bulb.png") 0 0 / contain no-repeat;
+            transform: rotate(38.44deg);
+        }
+    }
+
+    &__text {
+        font-size: 24px;
+        line-height: 150%;
+
+        max-width: 521px;
+
+        color: #8f95a5;
+
+        margin-bottom: 61px;
+    }
+
+    &__wrap-button {
+        margin-left: 2px;
+    }
+
+    &__button {
+        padding: 32px 117px;
+
+        font-size: 36px;
+        line-height: 150%;
+
+        border: 2px solid $colorDarkGrey;
+        border-radius: 5px;
+
+        color: #000;
+
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            color: #fff;
+            background-color: $colorDarkGrey;
+        }
+    }
+
+    &__wrap-image {
+        flex: 0 0 661px;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
 }
