@@ -1,0 +1,140 @@
+.skills {
+    &__subheading {
+        text-align: center;
+
+        margin-bottom: 92px;
+    }
+
+    &__row {
+        display: flex;
+        margin: -9px;
+    }
+
+    &__column {
+        padding: 9px;
+
+        &_col-1 {
+            flex: 0 1 300px;
+        }
+
+        &_col-2 {
+            flex: 0 1 300px;
+        }
+
+        &_col-3 {
+            flex: 0 1 300px;
+        }
+
+        &_col-4 {
+            display: flex;
+            flex: 0 1 900px;
+        }
+    }
+
+    &__item-1 {
+        padding: 35px 22px 135px 23px;
+        background-color: #f5f5f5;
+    }
+
+    &__wrap-img {
+        margin-bottom: 4px;
+    }
+
+    &__img-1 {
+    }
+
+    &__title-1 {
+        margin-left: 43px;
+        margin-bottom: 25px;
+    }
+
+    &__text-1 {
+        margin-left: 43px;
+        margin-bottom: 36px;
+    }
+
+    &__wrap-more-1 {
+        margin-left: 43px;
+    }
+
+    &__more-1 {
+    }
+
+    &__subrow {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item-2 {
+        padding: 0 19px 44px 22px;
+        background-color: #f5f5f5;
+    }
+
+    &__img-2 {
+        padding: 0 19px 0 100px;
+    }
+
+    &__title-2 {
+        margin-bottom: 11px;
+    }
+
+    &__text-2 {
+        margin-bottom: 33px;
+        width: 342px;
+    }
+
+    &__wrap-more-2 {
+    }
+
+    &__more-2 {
+    }
+
+    &__item-3 {
+        padding: 9px 38px 60px 0;
+        background-color: #f5f5f5;
+    }
+
+    &__img-3 {
+    }
+
+    &__title-3 {
+        margin-left: 41px;
+        margin-bottom: 6px;
+    }
+
+    &__text-3 {
+        margin-left: 41px;
+        margin-bottom: 35px;
+    }
+
+    &__wrap-more-3 {
+        margin-left: 41px;
+    }
+
+    &__more-3 {
+    }
+
+    &__body {
+        padding: 43px 40px 48px 48px;
+        background-color: #f5f5f5;
+    }
+
+    &__title-4 {
+        margin-bottom: 11px;
+    }
+
+    &__text-4 {
+        margin-bottom: 35px;
+    }
+
+    &__more-4 {
+    }
+
+    &__wrap-img-4 {
+        padding-top: 44px;
+        background-color: #f5f5f5;
+    }
+
+    &__img-4 {
+    }
+}

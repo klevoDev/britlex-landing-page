@@ -11,3 +11,44 @@
 
 .logo {
 }
+
+.subheading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 267%;
+
+    color: $colorDarkGrey;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #8f95a5;
+}
+
+.more {
+    padding: 17px 63px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    border: 2px solid $colorDarkGrey;
+    border-radius: 5px;
+
+    color: #000;
+
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        color: #fff;
+        background-color: $colorDarkGrey;
+    }
+}
