@@ -38,7 +38,7 @@
 
         max-width: 521px;
 
-        color: #8f95a5;
+        color: $colorGrey;
 
         margin-bottom: 61px;
     }
@@ -56,12 +56,12 @@
         border: 2px solid $colorDarkGrey;
         border-radius: 5px;
 
-        color: #000;
+        color: $colorBlack;
 
         transition: all 0.3s ease 0s;
 
         &:hover {
-            color: #fff;
+            color: $colorWhite;
             background-color: $colorDarkGrey;
         }
     }

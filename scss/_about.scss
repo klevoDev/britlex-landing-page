@@ -1,0 +1,52 @@
+.about {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        padding: 30px 194px 0 0;
+    }
+
+    &__subheading {
+        margin-bottom: 23px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 150%;
+
+        color: $colorGrey;
+
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 167%;
+
+        color: $colorDarkGrey;
+    }
+
+    &__point {
+        text-align: center;
+    }
+
+    &__topic {
+        font-size: 20px;
+        line-height: 150%;
+
+        color: $colorGrey;
+    }
+
+    &__wrap-pic {
+        flex: 0 0 500px;
+    }
+
+    &__pic {
+        max-width: 100%;
+    }
+}

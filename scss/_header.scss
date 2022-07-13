@@ -14,11 +14,11 @@
         font-size: 36px;
         line-height: 150%;
 
-        color: #000;
+        color: $colorBlack;
     }
 
     &__span {
-        color: #939393;
+        color: $colorGrey;
     }
 
     &__nav {
@@ -32,12 +32,12 @@
         border: 2px solid $colorDarkGrey;
         border-radius: 5px;
 
-        color: #000;
+        color: $colorBlack;
 
         transition: all 0.3s ease 0s;
 
         &:hover {
-            color: #fff;
+            color: $colorWhite;
             background-color: $colorDarkGrey;
         }
     }
